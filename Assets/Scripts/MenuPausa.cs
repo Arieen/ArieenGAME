@@ -37,11 +37,11 @@ public class MenuPausa : MonoBehaviour {
         paused = false;
     }
 
-    public void Restart()
+    /*public void Restart()
     {
         SceneManager.LoadScene("MainTestingGround");
     }
-
+    */
     public void mainMenu()
     {
         SceneManager.LoadScene("Scene2");
